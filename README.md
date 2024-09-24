@@ -9,7 +9,7 @@ Log into the Media Library, and paste the JS code into the browser's dev console
 2. Next the script will scan your Media Library for media files
    - For the directory scanning filter to work, each file has to have a file name set up on the GoPro's side
    - The scanning process will open a browser window for each file without a unique file name and will ask you to add these file names after the scan is finished
-   - You can use any names, a simple 'video1', 'video2' can work well
+   - You can use any names, a simple 'video1.MP4', 'video2.MP4' can work well
 3. If there were media files in your library without unique file names, you'll have to rerun the script after setting them
 4. After successfully completing the scan, the script will start downloading your media files to the default download directory
    - Each file will be accompanied with a `.json` file that contains the corresponding meta information that GoPro has for the media file in their database  
